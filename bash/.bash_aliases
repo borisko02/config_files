@@ -18,7 +18,7 @@ alias cl='clear'
 alias c='clear'
 alias ll='ls -alF --color=auto'
 alias ls='ls --color=auto' 
-alias l.='ls -d .* --color=auto' # list hiddenfile and directories                                                                                                                
+alias l.='ls -dl .* --color=auto' # list hiddenfile and directories in detailed(long) format                                                                                                             
 alias df='df -h'
 alias du='du -h'
 alias h='history'
