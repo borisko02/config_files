@@ -14,12 +14,19 @@ alias gsh='git stash'
 alias gpop='git stash pop'
 
 # System Aliases
-alias cl:wq:wq='clear'
-alias ll='ls -alF'
+alias cl='clear'
+alias c='clear'
+alias ll='ls -alF --color=auto'
+alias ls='ls --color=auto' 
+alias l.='ls -d .* --color=auto' # list hiddenfile and directories                                                                                                                
 alias df='df -h'
 alias du='du -h'
 alias h='history'
-alias c='clear'
+alias egrep='egrep --color=auto' 
+alias fgrep='fgrep --color=auto' 
+alias grep='grep --color=auto' 
+alias vi='vim' 
+alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde' 
 
 # Docker Aliases
 alias d='docker'
